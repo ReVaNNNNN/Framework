@@ -13,7 +13,7 @@ $routes->add(
 );
 
 $routes->add(
-    'bye',
+    'say goodbye',
     new Routing\Route('/bye',
         [
             '_controller' => 'render_template'
